@@ -1,0 +1,45 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="imgs/marcaf.png" type="image/png">
+  <link rel="stylesheet" href="profile.css">
+  <title>Perfil</title>
+ 
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="imgs/marcaf.png" alt="Geek´s Quiz">
+            <span class="logo-text">Geek´s Quiz</span>
+        </div>
+        <div class="links">
+            <a href="index.html">Início</a>
+            <a href="cadastro.html">Cadastrar-se</a>
+            <a href="login.html">Entrar</a>
+        </div>
+    </div>
+  <div id="profileContainer"></div>
+    <h1>Perfil</h1>
+    <p id="userName"></p>
+    <img id="userImage" src="" alt="Imagem do Usuário">
+    <h2>Escolha sua foto de perfil:</h2>
+    <select id="imageOptions">
+      <option value="imgs/mitsuri.jpg">Mitsuri</option>
+      <option value="imgs/sanemi.jpg">Sanemi</option> 
+      <option value="imgs/tomioka.jpg">Tomioka</option> 
+      <option value="imgs/shinobu.jpg">Shinobu</option> 
+      <option value="imgs/uzui.jpg">Uzui</option> 
+      <option value="imgs/tokito.jpg">Tokito</option> 
+      <option value="imgs/rengoku.jpg">Rengoku</option> 
+      <option value="imgs/gyomei.jpg">Gyomei</option> 
+      <option value="imgs/obanai.jpg">Obanai</option> 
+    </select>
+    <button onclick="saveImage()">Salvar</button>
+  </div>
+  <script src="js/profile.js"></script>
+</body>
+</html>
