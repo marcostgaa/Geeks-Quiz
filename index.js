@@ -3,7 +3,6 @@ $(document).ready(function() {
     var currentUser = localStorage.getItem('currentUser');
     var userImage = localStorage.getItem('userImage');
 
-    // Verificar se o usuário está logado
     if (loggedIn === 'true' && currentUser) {
         // Exibir nome do usuário
         $('#userName').text('Bem-vindo, ' + currentUser);
@@ -29,10 +28,8 @@ function toggleSidebar() {
 
         // Verificar se o usuário está logado
         if (loggedIn === 'true' && currentUser) {
-            // Exibir nome do usuário
             $('#userName').text(currentUser);
 
-            // Exibir imagem do usuário (se existir)
             if (userImage) {
                 $('#profileImage').attr('src', userImage);
             }
@@ -50,6 +47,5 @@ function changeNameColor() {
 function openColorPicker() {
     const colorPicker = $('#colorPicker');
 
-    // Abre a paleta de cores
     colorPicker.click();
 }
