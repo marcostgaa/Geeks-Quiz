@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="imgs/marcaf.png" type="image/png">
+  <link rel="stylesheet" href="login.css">
+  <title>Login</title>
+</head>
+<body>
+    
+        <div class="navbar">
+            <div class="logo">
+                <img src="imgs/marcaf.png" alt="Geek´s Quiz">
+                <span class="logo-text">Geek´s Quiz</span>
+            </div>
+            <div class="links">
+              <a href="autores.html">Autores</a>
+                <a href="index.html">Início</a>
+                <a href="cadastro.html">Cadastrar-se</a>
+                <a href="login.html">Entrar</a>
+            </div>
+        </div>
+  <div>
+    <h1>Login</h1>
+    <form id="loginForm">
+      <label for="username">Nome de Usuário:</label>
+      <input type="text" id="username" name="username" required>
+
+      <label for="password">Senha:</label>
+      <input type="password" id="password" name="password" required>
+
+      <button type="button" onclick="submitForm()">Entrar</button>
+    </form>
+  </div>
+  <script src="js/login.js"></script>
+</body>
+</html>
