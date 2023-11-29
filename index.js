@@ -1,5 +1,4 @@
 $(document).ready(function() {
-    // Recuperar informações do localStorage
     var loggedIn = localStorage.getItem('loggedIn');
     var currentUser = localStorage.getItem('currentUser');
     var userImage = localStorage.getItem('userImage');
