@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var nextButton = document.getElementById("nextButton");
   
     var questions = [
-        { question: "Pergunta 1?", answers: ["Respiração do Sol", "Respiração da Água", "Qual estilo de Respiração o Tanjiro usa?", "Respiração do Trovão", "Respiração da Besta"], correctAnswer: 0 },
+        { question: "Pergunta 1?", answers: ["Respiração do Sol", "Respiração da Água", "Qual é o estilo de Respiração que o Tanjiro usa no Castelo Infinito?", "Respiração do Trovão", "Respiração da Besta"], correctAnswer: 0 },
         { question: "Pergunta 2?", answers: ["Ele não usa um estilo de respiração", "Respiração do Sol", "Inosuke usa qual estilo de respiração?", "Respiração da Besta", "Respiração do Vento"], correctAnswer: 0 },
         { question: "Pergunta 3?", answers: ["2", "3", "Zenistu sabe usar quantos estilos da respiração do trovão?", "4", "0"], correctAnswer: 0 },
         { question: "Pergunta 4?", answers: ["Tengen Uzui", "Shinobu Kocho", "Quem é o Hashira mais rápido?", "Sanemi Shinazugawa", "Giyu Tomioka"], correctAnswer: 0 },
