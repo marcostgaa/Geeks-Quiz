@@ -9,7 +9,6 @@ $(document).ready(function() {
         // Exibir nome do usuário
         $('#userName').text('Bem-vindo, ' + currentUser);
 
-        // Exibir imagem do usuário (se existir)
         if (userImage) {
             $('#profileImage').attr('src', userImage);
         }
