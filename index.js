@@ -4,7 +4,6 @@ $(document).ready(function() {
     var userImage = localStorage.getItem('userImage');
 
     if (loggedIn === 'true' && currentUser) {
-        // Exibir nome do usuário
         $('#userName').text('Bem-vindo, ' + currentUser);
 
         if (userImage) {
@@ -26,7 +25,6 @@ function toggleSidebar() {
         var currentUser = localStorage.getItem('currentUser');
         var userImage = localStorage.getItem('userImage');
 
-        // Verificar se o usuário está logado
         if (loggedIn === 'true' && currentUser) {
             $('#userName').text(currentUser);
 
