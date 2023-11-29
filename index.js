@@ -14,7 +14,6 @@ $(document).ready(function() {
             $('#profileImage').attr('src', userImage);
         }
     } else {
-        // Redirecionar para a página de login se o usuário não estiver logado
         window.location.href = 'login.html';
     }
 });
